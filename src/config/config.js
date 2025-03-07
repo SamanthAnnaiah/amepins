@@ -7,7 +7,7 @@ const config = {
     },
   },
   production: {
-    apiUrl: "https://usazipcodes.onrender.com", // Replace with your production URL
+    apiUrl: "https://usazipcodes.onrender.com/api/v2", // Replace with your production URL
     weatherApi: {
       apiKey: "753f2f8914ee460186f161536250403",
     },
