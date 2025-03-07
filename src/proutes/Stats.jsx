@@ -13,7 +13,7 @@ function Stats() {
       icon: "🏆",
     },
     {
-      title: "Highest ZIP",
+      title: "Highest ZIP!",
       value: "99950",
       description: "Ketchikan, Alaska",
       icon: "🗺️",
