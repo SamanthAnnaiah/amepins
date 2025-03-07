@@ -22,6 +22,7 @@ function Psearcher({ search, setSearch, setResults }) {
             focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 link_menu_items"
             onClick={async () => {
               try {
+                console.log("searching for URL:", `${currentConfig.apiUrl}`);
                 const response = await axios.post(
                   `${currentConfig.apiUrl}/search`,
                   {
