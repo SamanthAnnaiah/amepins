@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#002868; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BF0A30; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Draw a pin shape with a gradient fill -->
+  <path d="M100,10
+           C70,10 50,40 50,70
+           C50,120 100,190 100,190
+           C100,190 150,120 150,70
+           C150,40 130,10 100,10 Z" 
+        fill="url(#grad1)" stroke="#fff" stroke-width="5"/>
+  <!-- Add a white circle in the middle -->
+  <circle cx="100" cy="70" r="20" fill="#fff"/>
+  <!-- A red diamond-like shape inside the circle (suggestive of a star) -->
+  <polygon points="100,55 108,70 100,85 92,70" fill="#BF0A30"/>
+</svg>
